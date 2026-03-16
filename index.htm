@@ -913,12 +913,26 @@
 		type='text/css' media='all'>
 	<link rel='stylesheet' id='rs-plugin-settings-css'
 		href='wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.17' type='text/css' media='all'>
-	<style id='rs-plugin-settings-inline-css' type='text/css'>
-		#rs-demo-id {}
+	<style>
+		#qodef-page-header, 
+		#qodef-page-mobile-header {
+			background-color: rgba(255, 255, 255, 0.7) !important;
+			backdrop-filter: blur(5px);
+			position: absolute !important;
+			width: 100% !important;
+			z-index: 999 !important;
+			left: 0;
+		}
 
-		/*# sourceURL=rs-plugin-settings-inline-css */
+		/* Optional: Help the sticky menu render well without the first menu */
+		.qodef-header-sticky {
+			position: relative !important; /* Bring it into normal flow inside our absolute header */
+			transform: none !important;
+			animation: none !important;
+			background: transparent !important;
+			visibility: visible !important;
+		}
 	</style>
-
 </head>
 
 <body
