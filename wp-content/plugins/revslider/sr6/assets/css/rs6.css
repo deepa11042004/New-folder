@@ -1,4 +1,4 @@
-/* FIX FOR WORDPRESS's CRAZY <p> TAG ANOMALY */
+﻿/* FIX FOR WORDPRESS's CRAZY <p> TAG ANOMALY */
 .rs-p-wp-fix { display: none !important; margin: 0 !important; height: 0px !important; }
 
 /* NEW Z-INDEX FIX*/
@@ -1101,7 +1101,7 @@ rs-loader.spinner0 {
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
-	background-image:url(../assets/loader.gif);
+	background-image:none;
 	background-repeat:no-repeat;
 	background-position: center center;
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
@@ -1126,7 +1126,7 @@ rs-loader.spinner1 {
 
 
 rs-loader.spinner5 	{
-	background-image:url(../assets/loader.gif);
+	background-image:none;
 	background-repeat:no-repeat;
 	background-position:10px 10px;
 	background-color:#fff;
@@ -1426,3 +1426,4 @@ rs-loader.spinner6{width:40px;height:40px;-webkit-transform:translate(-50%,-50%)
 	overflow: visible !important;
 	border: solid 5px red;
 } */
+
